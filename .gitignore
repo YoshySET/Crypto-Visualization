@@ -1,0 +1,5 @@
+.idea/
+tweepy_api/lambda_layer/python/*
+venv
+private.json
+.deploy.bat
