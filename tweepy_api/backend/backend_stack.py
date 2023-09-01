@@ -1,5 +1,6 @@
 from aws_cdk import (
     Stack,
+    Duration,
     aws_iam,
     aws_lambda,
     aws_apigateway
@@ -42,6 +43,7 @@ class BackendStack(Stack):
             handler='app.handler',
             role=lambda_role,
             layers=[lambda_layer],
+            timeout=Duration.seconds(30),
             environment={}
         )
 

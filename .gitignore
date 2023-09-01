@@ -2,4 +2,4 @@
 tweepy_api/lambda_layer/python/*
 venv
 private.json
-.deploy.bat
+tweepy_api/.deploy.bat

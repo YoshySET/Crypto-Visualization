@@ -1,3 +1,4 @@
 boto3==1.28.38
 pytest==6.2.5
 tweepy==4.14.0
+openai==0.27.10
